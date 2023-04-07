@@ -1,0 +1,171 @@
+/* header styles */
+.header-wraper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 32px;
+    height: 96px;
+}
+.nav-ul{
+    display: flex;
+    width: 328px;
+    justify-content: space-between;
+}
+.a-li {
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    color: #000000;
+}
+.action-button {
+    background-color: Black;
+    display: flex;
+    color: #F3F3F3;
+    border-radius: 32px;
+    height: 48px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+}
+
+/* "Medium length display headline" section styles */
+.section-wraper01 {
+    display: flex;
+    height: 556px;
+    column-gap: 130px;
+    align-items: center;
+    justify-content: center;
+}
+.text-block01 {
+    display: flex;
+    width: 490px;
+    row-gap: 44px;
+    flex-wrap: wrap;
+}
+.headline-desc {
+    display: flex;
+    row-gap: 25px;
+    flex-direction: column;
+}
+.headline-desc > h2 {
+    color: #000000;
+    font-family: 'Inter';
+    font-size: 56px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: -1px;
+}
+.headline-desc > p {
+    color: #000000;
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 28px;
+}
+.image01 {
+    border-radius: 12px;
+}
+.data-block {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+.data-text {
+    width: 236px;
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #000000;
+}
+/* "3 Features" section styles */
+.section02 {
+    background-color: #F3F3F3;
+}
+.section-wraper02 {
+    display: flex;
+    column-gap: 30px;
+    column-gap: 30px;
+    align-items: center;
+    justify-content: center;
+    height: 256px;
+}
+.feature-block {
+    display: flex;
+    row-gap: 16px;
+    width: 360px;
+    flex-wrap: wrap;
+}
+.black-circle {
+    background-color: #000000;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+}
+.feature-block-head {
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+}
+.feature-block-head > h3 {
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 28px;
+    color: #000000;
+}
+.feature-block > p {
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: norma;
+    line-height: 24px;
+    color: #000000;
+}
+
+/* Black-bg section styles*/
+.section03 {
+    background-color: Black;
+}
+.image03 {
+    border-radius: 12px;
+}
+.section-wraper03 {
+    display: flex;
+    column-gap: 133px;
+    justify-content: center;
+    align-items: center;
+    height: 620px;
+}
+.text-block03 {
+    color: #FFFFFF;
+    width: 503.5px;
+    display: flex;
+    row-gap: 16px;
+    flex-wrap: wrap;
+}
+.text-block03 > h4 {
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+}
+.text-block03 > p {
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 24px;
+}
+.text-block03 > ul {
+    list-style-type: disc;
+    color: #FFFFFF;
+}
+.text-block03 > ul > li {
+    margin: 8px;
+}
+
+/* unda gavstilo list dashorebebi gadavamowmo da davalago content section-shi */

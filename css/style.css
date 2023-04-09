@@ -109,8 +109,7 @@
 .feature-block {
     display: flex;
     gap: 16px;
-    max-width: 360px;
-    width: 80%;
+    width: 360px;
     flex-wrap: wrap;
 }
 .black-circle {
@@ -209,8 +208,7 @@
     margin: 0 auto;
 }
 .testimonial-block {
-    max-width: 360px;
-    width: 100%;
+    width: 360px;
     padding: 24px;
     display: flex;
     flex-direction: column;
@@ -293,8 +291,7 @@
 }
 .text-block05 {
     display: flex;
-    max-width: 600px;
-    width: 90%;
+    width: 600px;
     flex-wrap: wrap;
     row-gap: 32px;
     justify-content: center;
@@ -349,8 +346,8 @@
 }
 .div-menu {
     display: flex;
-    justify-content: center;
     align-items: start;
+    flex-wrap: wrap;
 }
 .column > h5 {
     color: #FFFFFF;
@@ -362,18 +359,19 @@
     width: 228px;
 }
 .column:not(.active) {
-    width: 228px;
+    width: 22%;
     row-gap: 16px;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
+    flex-direction: column;
 }
 .active {
-    width: 228px;
     row-gap: 24px;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
+    flex-direction: column;
 }
 .column > ul {
     font-family: 'Inter';

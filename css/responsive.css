@@ -32,7 +32,7 @@
     .feature-block {
         width: 27%;
     }
-/* Black-bg section styles*/
+    /* Black-bg section styles*/
     .image-wraper03 {
         width: 100%;
         height: 550px;
@@ -43,9 +43,9 @@
     }
     .text-block03 {
         flex-direction: row;
-        gap: 129px;
         width: 100%;
         align-items: start;
+        justify-content: space-between;
     }
     .title03 {
         width: 43%;
@@ -66,5 +66,89 @@
         padding: 45px 32px;
         gap: 48px;
         align-items: start;
+    }
+    .div-menu {
+        justify-content: space-between;
+    }
 }
+@media (max-width: 744px) {
+    /* "Medium length display headline" section styles */
+    .section-wraper01 {
+        margin: 0 auto;    
+        gap: 25px;
+    }
+    .headline-desc > h2 {
+        font-size: 40px;
+        line-height: 49px;
+    }
+    .text-block01 {
+        width: 100%;
+        padding: 0px;
+    }
+    .data-block {
+        gap: 24px;
+        flex-direction: column;
+    }
+    /* "3 Features" section styles */
+    .section-wraper02 {
+        flex-direction: column;
+        gap: 20px;
+        padding: 26px 0 20px 0;
+
+    }
+    .feature-block-head {
+        flex-direction: column;
+    }
+    .feature-block {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+    /* Black-bg section styles*/
+    .section-wraper03 {
+        padding: 24px;
+    }
+    .text-block03 {
+        flex-direction: column;
+        text-align: center;
+        gap: 29px;
+    }
+    .title03 {
+        width: 100%;
+    }
+    .desc03 {
+        width: 100%;
+        justify-content: center;
+    }
+    /* Testimonials section */
+    .third {
+        display: none;
+    }
+    .section-wraper04 {
+        padding: 24px 0;
+        justify-content: center;
+        gap: 16px;
+    }
+    .testimonial-block {
+        width: 46%;
+    }
+    .fa-square-facebook {
+        display: none;
+    }
+    /* Bottom section styles */
+    .section-wraper05 {
+        padding: 158px 0;    
+    }
+    .text-block05 {
+        width: 100%;
+        row-gap: 12px;
+    }
+    /* Footer elements styles */
+    .footer-wraper {
+        padding: 25px 22px;
+        gap: 20px;
+    }
+    .div-menu {
+        align-items: center;
+    }
 }

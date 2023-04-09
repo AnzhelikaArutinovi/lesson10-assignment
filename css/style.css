@@ -348,6 +348,7 @@
     display: flex;
     align-items: start;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 .column > h5 {
     color: #FFFFFF;
@@ -359,7 +360,7 @@
     width: 228px;
 }
 .column:not(.active) {
-    width: 22%;
+    width: 15%;
     row-gap: 16px;
     display: flex;
     flex-wrap: wrap;

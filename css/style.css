@@ -40,14 +40,13 @@
     display: flex;
     width: 100%;
     padding: 64px 165px;    
-    column-gap: 130px;
+    gap: 130px;
     align-items: center;
     justify-content: center;
 }
 .text-block01 {
     display: flex;
-    max-width: 490px;
-    width: 100%;
+    width: 490px;
     row-gap: 44px;
     flex-wrap: wrap;
 }
@@ -71,13 +70,21 @@
     font-weight: normal;
     line-height: 28px;
 }
-.image01 {
+.image-wraper01 {
+    background-image: url(../images/pillows.png);
     border-radius: 12px;
+    width: 490px;
+    height: 428px;     
+    display: flex;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
 }
 .data-block {
     display: flex;
     align-items: center;
-    column-gap: 20px;
+    gap: 20px;
 }
 .data-text {
     width: 236px;
@@ -133,8 +140,15 @@
 }
 
 /* Black-bg section styles*/
-.image03 {
+.image-wraper03 {
+    background-image: url(../images/shelf.png);
     border-radius: 12px;
+    width: 503.5px;
+    height: 428px;     
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .section-wraper03 {
     width: 100%;
@@ -149,25 +163,33 @@
 }
 .text-block03 {
     color: #FFFFFF;
-    max-width: 503.5px;
-    width: 80%;
+    width: 503.5px;
     display: flex;
     row-gap: 16px;
     flex-wrap: wrap;
 }
-.text-block03 > h4 {
+.title03 {
+    display: flex;
+    flex-wrap: wrap;
+}
+.title03 > h4 {
     font-family: 'Inter';
     font-size: 24px;
     font-weight: 900;
     line-height: 32px;
 }
-.text-block03 > p {
+.desc03 {
+    display: flex;
+    row-gap: 16px;
+    flex-wrap: wrap;
+}
+.desc03 > p {
     font-family: 'Inter';
     font-size: 16px;
     font-weight: normal;
     line-height: 24px;
 }
-.text-block03 > ul {
+.desc03 > ul {
     list-style-type: disc;
     list-style-position: inside;
     color: #FFFFFF;
@@ -179,12 +201,11 @@
 /* Testimonials section styles*/
 .section-wraper04 {
     display: flex;
+    max-width: 1140px;
     width: 100%;
-    gap: 30px;
     align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 96px 0;
+    justify-content: space-between;
+    padding: 96px 0px;
     margin: 0 auto;
 }
 .testimonial-block {
@@ -321,12 +342,15 @@
 .footer-wraper {
     display: flex;
     justify-content: center;
-    align-items: start;
     width: 100%;
     background-color: #000000;
     padding: 96px 0;
-    margin: 0 auto;
     flex-wrap: wrap;
+}
+.div-menu {
+    display: flex;
+    justify-content: center;
+    align-items: start;
 }
 .column > h5 {
     color: #FFFFFF;
@@ -345,11 +369,11 @@
     justify-content: flex-start;
 }
 .active {
-        width: 228px;
-        row-gap: 24px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: flex-start;
+    width: 228px;
+    row-gap: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
 .column > ul {
     font-family: 'Inter';

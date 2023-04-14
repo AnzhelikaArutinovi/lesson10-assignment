@@ -1,4 +1,11 @@
 /* header styles */
+header {
+    position: fixed;
+    height: auto;
+    width: 100%;
+    z-index: 10;
+    background-color: #FFFFFF;
+}
 .header-wraper {
     display: flex;
     flex-wrap: wrap;
@@ -47,6 +54,9 @@
 }
 
 /* "Medium length display headline" section styles */
+.section01 {
+    padding-top: 82px;
+}
 .section-wraper01 {
     display: flex;
     max-width: 1440px;

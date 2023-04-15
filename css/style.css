@@ -378,7 +378,6 @@ footer {
 .footer-logo-wraper {
     width: 20%;
 }
-
 .columns-wraper {
     width: 80%;
     display: flex;
@@ -436,17 +435,29 @@ footer {
     flex-wrap: wrap;
 }
 .email-block {
-    height: 48px;
     width: 100%;
-    display: flex;
-    border-radius: 40px;
+    height: auto;
     background-color: rgba(255, 255, 255, 0.15);
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+    border-radius: 40px;
+    display: flex;
     padding: 12px 24px;
+    height: 48px;
 }
-.email-block > p {
+.email-block > input {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 0px;
+}
+.email-block > input:focus {
+    outline: none;
+}
+.email-block > input::placeholder {
     font-family: 'Inter';
     font-size: 16px;
     font-weight: normal;
@@ -454,9 +465,12 @@ footer {
     color: #FFFFFF;
     opacity: 50%;
 }
+.email-block > button {
+    background-color: transparent;
+    padding: 0px;
+}
 .fa-paper-plane {
     color: #FFFFFF;
-    width: 24px;
 }
 .email-block-wraper > p {
     color: #FFFFFF;

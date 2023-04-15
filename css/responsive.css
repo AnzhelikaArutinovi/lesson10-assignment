@@ -70,6 +70,9 @@
     .columns-wraper {
         width: 100%;
     }
+    .subscribe {
+        row-gap: 12px;
+    }
 }
 @media (max-width: 744px) {
     /* "Medium length display headline" section styles */
@@ -192,13 +195,15 @@
         flex-direction: column;
         gap: 25px;
     }
-    .div-menu {
+    .div-menu, .subscribe {
         width: 100%;
         text-align: center;
     }
     .subscribe {
-        width: 100%;
-        text-align: center;
+        align-items: center;
+    }
+    .email-block-wraper {
+        width: 90%;
     }
 }
 @media (max-width: 450px) {
@@ -211,6 +216,10 @@
     }
     .fa-square-facebook {
         display: inline-block;
+    }
+    /* Footer elements styles */
+    .email-block-wraper {
+        width: 100%;
     }
 }
 @media (max-width: 375px) {
